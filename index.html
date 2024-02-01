@@ -4,57 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SMCC Website</title>
-<<<<<<< HEAD
-    <style>
-
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Arial', sans-serif;
-            color: black;
-        }
-    </style>
-
-
-</head>
-<body>
-    <header>
-        
-        <h1 style="text-align: center;">
-            SMCC
-            <br>Saint Michael College of Caraga
-        </h1>
-        <nav>
-            <p style="text-align: center;">
-                <a href="index.html" > Home &nbsp &nbsp</a>
-                <a href="#about" > About SMCC &nbsp &nbsp</a>
-                <a href="#courses" > Courses Offered &nbsp &nbsp</a>
-                <a href="#services" > Services &nbsp &nbsp</a>
-                <a href="#contact" > Contact Us &nbsp &nbsp</a>
-            </p>
-        </nav>
-    </header>
-
-
-    <main>
-        <article id="about">
-            <h1>
-
-            </h1>
-
-        </article>
-    </main>
-
-
-=======
 
     <style>
         header {
-            background-image: url(logo/Smcc_logo.gif);
+            background-color: cadetblue;
         }
         body {
             background:scroll;
             background-attachment: fixed;
+            background-image: url(smcc/logo.jpg);
+            background-size: cover;
+            background
 
         }
         nav {
@@ -67,14 +27,27 @@
             padding: 5px 20px;
             text-decoration: none;
         }
+        h1 {
+            text-decoration-line: underline;
+            text-decoration-color: yellow; 
+        }
+        #about{
+            display: flex;
+            height: 50px;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1 style="text-align: center;">
             SMCC <br>
-            Saint Michael College of Caraga
         </h1>
+        <h2 style="text-align: center;">
+            Saint Michael College of Caraga
+        </h2>
         
         <nav>
             <a href="index.html" > Home &nbsp </a>
@@ -84,6 +57,32 @@
             <a href="#contact" > Contact Us &nbsp</a>
         </nav>
     </header>
->>>>>>> 660698438b7487db801e453f6908ed2dd9cd2c81
+
+    <figure style="text-align: center;">
+        <img src="smcc/st-michael.jpg" height="350" width="350" >
+    </figure>
+    <article id="about">
+        <section>
+        </section>
+
+        <section>
+            <figure >
+                <img src="smcc/vision.png" height="300" width="350" >
+            </figure>
+        </section>
+
+        <section>
+            <figure>
+                <img src="smcc/mission.png" height="300" width="350" >
+            </figure>
+        </section>
+
+        <section>
+            <figure>
+                <img src="smcc/goal.png" height="300" width="350" >
+            </figure>
+        </section>
+
+    </article>
 </body>
 </html>
