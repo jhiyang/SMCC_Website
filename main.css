@@ -1,0 +1,67 @@
+header {
+    background-color: rgb(255, 230, 1);
+    box-shadow: 0 0 30px;
+    padding-bottom: 0px;
+    color:rgb(18, 18, 97);
+    
+}
+body {
+    background:scroll;
+    background-attachment: fixed;
+    background-image: url(smcc/smcc-logo.png);
+    background-size: contain;
+    background-size: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: rgb(18, 18, 97);
+    
+    
+
+}
+nav {
+    text-align: center;
+    background-color: rgb(17, 17, 61);
+    box-shadow: 0 0 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    scroll-behavior: smooth;
+    
+}
+nav a {
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+h1 {
+    text-decoration-line: underline;
+    text-decoration-color: rgb(18, 18, 97);
+}
+h2 {
+    
+}
+#about{
+    display: flex;
+    height: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.pres {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    border-radius: 10cap;
+    padding-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0 0 10cap;
+}
+
+@media (min-width: 768px) {
+    img {
+        float: left;
+        margin-right: 10px;
+
+    }
+}
