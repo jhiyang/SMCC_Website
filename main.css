@@ -1,23 +1,16 @@
+h1 {
+    text-decoration-line: underline;
+    text-decoration-color: rgb(18, 18, 97);
+    font-weight: bold;
+    text-align: center;
+}
 header {
-    background-color: rgb(255, 230, 1);
+    background-color: rgb(18, 18, 97);
     box-shadow: 0 0 30px;
     padding-bottom: 0px;
     color:rgb(18, 18, 97);
-    
-}
-body {
-    background:scroll;
-    background-attachment: fixed;
-    background-image: url(smcc/smcc-logo.png);
-    background-size: contain;
-    background-size: 300px;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-color: rgb(18, 18, 97);
-    
-    
-
+    text-align: center;
+    border-top: 10cap;
 }
 nav {
     text-align: center;
@@ -26,42 +19,86 @@ nav {
     padding-bottom: 10px;
     padding-top: 10px;
     scroll-behavior: smooth;
-    
 }
 nav a {
     color: white;
     padding: 5px 20px;
     text-decoration: none;
+    text-align: center;
 }
-
-h1 {
-    text-decoration-line: underline;
-    text-decoration-color: rgb(18, 18, 97);
+body {
+    background-attachment: fixed;
+    background-image: url(smcc/smcc-logo.png);
+    background-size: contain;
+    background-size: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: rgb(18, 18, 97);
+    text-align: center;
 }
 h2 {
-    
+    text-align: center;
+    color: yellow;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    border-radius: 10cap;
+    background-color: rgb(18, 18, 97);
 }
-#about{
-    display: flex;
-    height: 50px;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+figure {
+    text-align: center;
+
 }
-.pres {
+img {
     max-width: 100%;
     height: auto;
     text-align: center;
-    border-radius: 10cap;
+    border-radius: 5px;
     padding-left: 10px;
     margin-right: 10px;
-    box-shadow: 0 0 10cap;
+    box-shadow: 0 0 3cap;
+    border-radius: 10cap;
 }
+h3 {
 
-@media (min-width: 768px) {
-    img {
-        float: left;
-        margin-right: 10px;
-
-    }
+    color:black;
+    text-align: center;
+    background-color: white;
+    text-align: center;
+    border-radius: 5cap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+figcaption {
+    background-color: rgb(18, 18, 97);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 10cap;
+    color: white;
+}
+p{
+    background-color: rgb(18, 18, 97);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    border-radius: 50px;
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+    
+    
+}
+#courses{
+    color: yellow;
+}
+#about {
+    color: black;
+}
+#contact {
+    background-color: gray;
 }
