@@ -72,8 +72,6 @@ body {
     padding: 30px;
     border-radius: 50px;
     background-color: rgb(231, 239, 147);
-    width:500px;
-    height: 250;
     box-shadow: 0 4px 20px;
     margin-top: 20px;
     text-align: left;
@@ -144,16 +142,12 @@ body {
 
 }
 
-/* Default styles for all devices */
-
-/* Ensure elements take up the full width of the viewport */
 body, html {
     width: 100%;
     margin: 0;
     padding: 0;
 }
 
-/* Make images responsive */
 img {
     max-width: 100%;
     height: auto;
@@ -168,12 +162,11 @@ img {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 20px;
     }
     h1 {
         font-size: 20px;
     }
-    .column {
+    .box-style {
         width: 100%;
     }
 }
